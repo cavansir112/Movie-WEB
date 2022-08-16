@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);;
+}
+
+a{
+    transition: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container-n{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.home-navbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+   
+}
+
+.menu{
+    height: 70px;
+}
+
+
+.home-navbar .menu ul li{
+    margin: 0;
+    padding: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 196, 0);
+}
+
+#hover-li{
+    position: relative;
+}
+
+#hover-menu{
+    display: none;
+    width: 200px;
+    padding: 10px 0;
+    position: absolute;
+    margin-top: 500px;
+    border-radius: 10px;
+    margin-left: 97px;
+    transition: 0.5s;
+}
+
+#hover-li:hover #hover-menu{
+    display: block;
+    flex-direction: column;
+    opacity: 1;
+    transition: 0.5s;
+    margin-top: 290px;
+    
+}
+
+#hover-menu li{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    padding: 7px 10px;
+}
+
+#hover-menu li:hover{
+    background-color: rgb(255, 196, 0);
+    color: black;
+}
+
+.home-navbar .menu ul li:hover{
+    background-color: rgb(255, 196, 0);
+    color: black;
+    transition: 0.3s;
+}
+
+.home-navbar .menu ul li i{
+    font-size: 15px;
+}
+
+.container-push{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+}
+
+.push-menu{
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.push-menu ul li{
+    margin: 0;
+    padding: 0 30px 0 0;
+    font-size: 18px;
+    color: rgb(255, 196, 0);
+    cursor: pointer;
+}
+
+.push-menu ul li:hover{
+    color: rgb(150, 115, 0);
+}
+
+.search-input{
+    background: none;
+    border: solid 1px rgb(255, 196, 0);
+    color: rgb(255, 196, 0);
+}
+
+
+
+.search-button{
+    background-color: none;
+    border: solid 1px rgb(255, 196, 0);
+    color: rgb(255, 196, 0);
+}
+
+.search-button:hover{
+    color: black;
+    background-color: rgb(255, 196, 0);
+    border-color: rgb(255, 196, 0);
+}
+
+
+
+
+
